@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>Profile for assemblies and lists of assemblies</doc>
+  
+  <!-- base elements -->
+  <descriptor id="item" type="safe">
+	Provides a link to the assembly.
+  </descriptor>
+  
+  <descriptor id="title" type="semantic">
+	<doc>The title of the assembly.</doc>
+  </descriptor>
+  
+  <descriptor id="version" type="semantic">
+	<doc>The version of the assembly.</doc>
+  </descriptor>
+  
+  <descriptor href="bioproperty#property" />
+  <descriptor href="bioobject#item"/>
+  
+  <!-- containers -->
+  <descriptor id="assembly" type="semantic">
+	<doc>Describes an assembly.</doc>
+	<descriptor href="#link" />
+	<descriptor href="#title" />
+	<descriptor href="#version" />
+	<descriptor href="bioproperty#property" />
+	<descriptor href="bioobject#link"/>
+  </descriptor>
+  
+  <!-- hypermedia control -->
+  <descriptor id="search" type="safe" rt="#assembly">
+	<doc>A form to search for assemblies.</doc>
+	<descriptor id="query" type="semantic">
+      <doc>Search query to retrieve the list.</doc>
+	</descriptor>
+  </descriptor>
+  
+  <descriptor id="create" type="unsafe" rt="#assembly">
+	<doc>A form to post-append a new assembly.</doc>
+	<descriptor id="#title" />
+	<descriptor id="#version" />
+	<descriptor href="bioproperty#property" />
+	<descriptor href="bioobject#link"/>
+  </descriptor>
+  
+  <descriptor id="update" type="idempotent" rt="#assembly">
+	<doc>A form to edit an existing assembly.</doc>
+	<descriptor id="#title" />
+	<descriptor id="#version" />
+	<descriptor href="bioproperty#property" />
+	<descriptor href="bioobject#link"/>
+  </descriptor>
+</alps>
