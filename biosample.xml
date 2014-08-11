@@ -7,6 +7,8 @@
     <doc>The samples title.</doc>
   </descriptor>
   
+  <descriptor href="http://alps.example.com/bioexperiment.xml#factor" />
+  
   <!-- containers -->
   <descriptor href="http://alps.example.org/bioproperty.xml#property" />
   
