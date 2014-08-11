@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of biological entities.</doc>
+  
+  <!-- base elements -->
+  <descriptor id="sequence" type="semantic">
+    <doc>The entities sequence.</doc>
+  <descriptor>
+  
+  <descriptor id="length" type="semantic">
+    <doc>The length of the entities sequence.</doc>
+  </descriptor>
+  
+  <!-- containers -->
+  <descriptor href="http://alps.example.org/bioproperty.xml#property" />
+  <descriptor href="http://alps.example.org/biofeature.xml#feature" />
+  
+  <!-- state transitions -->
+  <descriptor id="experiment" type="safe">
+    <doc>Refers to a resource that provides measurements of the entity under certain conditions.</doc>
+  </descriptor>
+  
+  <descriptor href="https://alps.io/iana/relations#canonical" />
+  <descriptor href="http://alps.io/iana/relations#up" />
+  <descriptor href="https://alps.io/iana/relations#search" />
+  <descriptor href="http://alps.io/iana/relations#edit-form" />
+  <descriptor href="http://alps.io/iana/relations#create-form" />
+</alps>

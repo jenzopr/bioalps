@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of samples and corresponding entity measurements that were taken as part of an experiment.</doc>
+  
+  <!-- base elements -->
+  <descriptor id="title">
+    <doc>The samples title.</doc>
+  </descriptor>
+  
+  <!-- containers -->
+  <descriptor href="http://alps.example.org/bioproperty.xml#property" />
+  
+  <descriptor id="measurement" type="semantic">
+    <doc>A value that was measured for a biological entity in a particular condition.</doc>
+    <link rel="help" href="http://www.mged.org/minseqe/" />
+    <descriptor id="entity" type="semantic">
+      <doc>Refers to the biological entity in the current context.</doc>
+    </descriptor>
+    <descriptor id="value" type="semantic">
+      <doc>The measured value.</doc>
+    </descriptor>
+  </descriptor>
+  
+  <!-- state transitions -->
+  <descriptor href="http://alps.io/iana/relations#up" />
+  <descriptor href="https://alps.io/iana/relations#search" />
+  <descriptor href="http://alps.io/iana/relations#edit-form" />
+  <descriptor href="http://alps.io/iana/relations#create-form" />
+</alps>

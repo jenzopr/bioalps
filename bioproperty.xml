@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of biological properties or annotations. Technically, containers for term-value pairs that can be used to extensively annotate an entity using a consistent vocabulary.</doc>
+  
+  <!-- base elements -->
+  <descriptor id="term" type="semantic">
+    <doc>An ontology or property term, e.g. efo:0002029 or sio:010066. Free text works as well.</doc>
+    <link rel="help" href="http://bioportal.bioontology.org/ontologies/EFO" />
+    <link rel="help" href="http://bioportal.bioontology.org/ontologies/SIO" />
+  </descriptor>
+  
+  <descriptor id="value" type="semantic">
+    <doc>A value assigned to an ontology or property term. For example a software name and version assigned to sio:010066 (sequence alignment) or a genotype assigned to efo:0000513 (genotype).</doc>
+  </descriptor>
+  
+  <!-- containers -->
+  <descriptor id="property" type="semantic">
+    <doc>A property.</doc>
+	<descriptor href="#term" />
+	<descriptor href="#value" />
+  </descriptor>
+<alps>

@@ -1,4 +1,3 @@
-=======
 bioalps
 =======
 
@@ -17,14 +16,12 @@ The genome/bioscience domain
 
 ## general profile description
 
+- Profiles do not include explicit accession numbers, since the URL can be used as accession and defines the resource. 
+- Since some bioobjects may have multiple accessions, a canonical link may be provided.
 - Base descriptors are free floating (non-containered) because of the highly varying understanding in the field.
-- A semantic descriptor points to the (later described) bioproperties profile.
-- A safe transition allows fetching representations of sequences (later described as bioobjects).
-- Hypermedia controls return assemblies itself.
+- Hypermedia controls are not fully implemented, but transitions to search, edit and create forms are possible.
 
 ## Open questions
 
-- Although base descriptors are free floating, I added a container that is returned by the state transitions. I'm not sure if this is neccessary or if returning an "item" is sufficient.
-- There might be a clash between the assemblies item descriptor and the bioobjects item descriptor. I'm still looking for a good way to include a safe transition to another representation (Basically its about modelling the hierarchical nature of the problem space)
-- Maybe I even don't need the descriptors inside the transitions?
-
+- Since hypermedia control is only available as search, edit-form and create-form relations, I'm asking myself if they need seperate profiles?
+- Currently, there is a mixture of related and up relations. I somehow need to model hierarchy between different representations - maybe there is a better way to do so.

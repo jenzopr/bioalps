@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of experimental contrasts.</doc>
+  
+  <!-- base elements -->
+  <descriptor id="title" type="semantic">
+    <doc>The title of the contrast.</doc>
+  </descriptor>
+  
+  <descriptor id="factor" type="semantic">
+    <doc>The experimental factor used in this contrast.</doc>
+  <descriptor>
+  
+  <descriptor id="filter" type="semantic">
+    <doc>An experimental factor that is used to filter the list of samples of an experiment.</doc>
+  </descriptor>
+  
+  <!-- state transitions -->
+  <descriptor href="http://alps.io/iana/relations#up" />
+  <descriptor href="https://alps.io/iana/relations#search" />
+  <descriptor href="http://alps.io/iana/relations#edit-form" />
+  <descriptor href="http://alps.io/iana/relations#create-form" />
+</alps>

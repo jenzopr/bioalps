@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of biological experiments.</doc>
+  <link rel="help" href="http://www.mged.org/minseqe/" />
+
+  <!-- base elements -->  
+  <descriptor id="title" type="semantic">
+	<doc>The title of the experiment.</doc>
+  </descriptor>
+  
+  <descriptor id="summary" type="semantic">
+	<doc>The summary and the goal of the experiment.</doc>
+  </descriptor>
+  
+  <descriptor id="reference" type="semantic">
+	<doc>A reference to a related publication or an associated document.</doc>
+  </descriptor>
+  
+  <descriptor id="biosystem" type="semantic">
+	<doc>Information about the biological system from which samples were taken (e.g. the organism).</doc>
+  </descriptor>
+  
+  <descriptor id="factor" type="semantic">
+	<doc>A key experimental variable or factor (e.g. time point in time series experiments or antibody in ChIP-Seq experiments).</doc>
+  </descriptor>
+  
+  <!-- containers -->
+  <descriptor href="http://alps.example.org/bioproperty.xml#property" />
+  
+  <!-- state transitions --> 
+  <descriptor id="sample" type="safe">
+    <doc>Refers to a resource that was taken as sample within the experiment.</doc>
+  </descriptor>
+  
+  <descriptor id="contrast" type="safe">
+    <doc>Refers to a resource that can be used to contrast two experimental variables or factors.</doc>
+  </descriptor>
+  
+  <descriptor href="https://alps.io/iana/relations#canonical" />
+  <descriptor href="http://alps.io/iana/relations#author" />
+  <descriptor href="https://alps.io/iana/relations#search" />
+  <descriptor href="http://alps.io/iana/relations#edit-form" />
+  <descriptor href="http://alps.io/iana/relations#create-form" />
+</alps>

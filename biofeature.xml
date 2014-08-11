@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of biological features. Technically, containers for feature start and end positions on a sequence in an arbitrary coordinate system.</doc>
+  
+  <!-- base elements -->
+  <descriptor id="start" type="semantic">
+    <doc>The start of the feature.</doc>
+  </descriptor>
+  
+  <descriptor id="end" type="semantic">
+    <doc>The end of the feature.</doc>
+  </descriptor>
+  
+  <descriptor id="strand" type="semantic">
+    <doc>The strand on which the feature is located. If not present, the feature has no strandness.</doc>
+  </descriptor>
+  
+  <descriptor id="type" type="semantic">
+    <doc>A feature type, possibly from an ontology (e.g. so:0001077). Free text works as well.</doc>
+    <link rel="help" href="http://bioportal.bioontology.org/ontologies/SO" />
+  </descriptor>
+  
+  <descriptor id="description" type="semantic">
+    <doc>An additional description.</doc>
+  </descriptor>
+  
+  <!-- state transitions -->
+  <descriptor href="http://alps.io/iana/relations#describedby" />
+<alps>
