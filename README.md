@@ -43,8 +43,9 @@ Contribution and contact
 Feel free to fork this repository, add your changes and send me a pull request.
 
 ## Contributors
-Jens Preussner
-Mike Amundsen
+
+- Jens Preussner
+- Mike Amundsen
 
 ## Contact
 
