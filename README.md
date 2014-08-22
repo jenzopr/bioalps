@@ -34,3 +34,18 @@ Furthermore, three helpful terms are defined:
 
 - Since hypermedia control is only available as search, edit-form and create-form relations, I'm asking myself if hypermedia control needs seperate profiles?
 - Currently, there is a mixture of related and up relations. I somehow need to model hierarchy between different representations - maybe there is a better way to do so.
+
+Contribution and contact
+========================
+
+## How to contribute?
+
+Feel free to fork this repository, add your changes and send me a pull request.
+
+## Contributors
+Jens Preussner
+Mike Amundsen
+
+## Contact
+
+Feel free to contact me via e-mail (jens.preussner@mpi-bn.mpg.de)
