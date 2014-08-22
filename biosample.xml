@@ -13,14 +13,21 @@
   <descriptor href="http://alps.example.org/bioproperty.xml#property" />
   
   <descriptor id="measurement" type="semantic">
-    <doc>A value that was measured for a biological entity in a particular condition.</doc>
+    <doc>A measurement for a biological entity in a particular condition.</doc>
     <link rel="help" href="http://www.mged.org/minseqe/" />
-    <descriptor id="entity" type="semantic">
+    <descriptor id="type" type="semantic">
+	    <doc>The type of the measurement (e.g. expression, association, feature).</doc>
+	  </descriptor>
+	  <descriptor id="entity" type="semantic">
       <doc>Refers to the biological entity in the current context.</doc>
     </descriptor>
     <descriptor id="value" type="semantic">
-      <doc>The measured value.</doc>
+      <doc>A measured value.</doc>
     </descriptor>
+	  <descriptor id="association" type="semantic">
+	    <doc>A measured association</doc>
+	  </descriptor>
+	  <descriptor href="https://alps.example.org/biofeature.xml" />
   </descriptor>
   
   <!-- state transitions -->
