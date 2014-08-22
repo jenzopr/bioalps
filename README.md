@@ -1,5 +1,5 @@
-bioalps
-=======
+genomics alps
+=============
 
 This repository contains a proposal for ALPS profiles in the genome science domain. Profiles are drafts and will very likely change in the next few weeks.
 
