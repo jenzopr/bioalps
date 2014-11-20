@@ -1,7 +1,7 @@
 {
   "collection" : {
     "version" : "1.0",
-	"href" : "http://www.ensembl.org/Oryctolagus_cuniculus/Transcript/Summary?g=ENSOCUG00000003871;r=5:14535641-14557213;t=ENSOCUT00000003872"
+	"href" : "http://www.ensembl.org/Oryctolagus_cuniculus/Transcript/Summary?g=ENSOCUG00000003871;r=5:14535641-14557213;t=ENSOCUT00000003872",
 	"links" : [
 	  {"rel" : "profile", "href" : "http://alps.example.org/bioobject.xml"}
 	],
