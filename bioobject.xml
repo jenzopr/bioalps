@@ -20,9 +20,10 @@
     <doc>Refers to a resource that provides measurements of the entity under certain conditions.</doc>
   </descriptor>
   
-  <descriptor href="https://alps.io/iana/relations#canonical" />
-  <descriptor href="http://alps.io/iana/relations#up" />
-  <descriptor href="https://alps.io/iana/relations#search" />
-  <descriptor href="http://alps.io/iana/relations#edit-form" />
-  <descriptor href="http://alps.io/iana/relations#create-form" />
+  <descriptor href="http://alps.io/iana/relations.xml#canonical" />
+  <descriptor href="http://alps.io/iana/relations.xml#up" />
+  <descriptor href="http://als.io/iana/relations.xml#related" />
+  <descriptor href="http://alps.io/iana/relations.xml#search" />
+  <descriptor href="http://alps.io/iana/relations.xml#edit-form" />
+  <descriptor href="http://alps.io/iana/relations.xml#create-form" />
 </alps>
