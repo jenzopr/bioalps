@@ -1,0 +1,34 @@
+{ "collection" : 
+  {
+    "version" : "1.0",
+    "href" : "http://www.uniprot.org/uniprot/P12345.json",
+	"links" : [
+	  {"rel" : "profile", "href" : "http://alps.example.org/bioobject.xml"}
+	],
+	"items" : [
+	  {
+	    "href" : "http://www.uniprot.org/uniprot/P12345.json",
+		"data" : [
+		  {"name" : "sequence", "value" : "MALLHSARVLSGVASAFHPGLAAAASARASSWWAHVEMGPPDPILGVTEAYKRDTNSKKMNLGVGAYRDDNGKPYVLPSVRKAEAQIAAKGLDKEYLPIGGLAEFCRASAELALGENSEVVKSGRFVTVQTISGTGALRIGASFLQRFFKFSRDVFLPKPSWGNHTPIFRDAGMQLQSYRYYDPKTCGFDFTGALEDISKIPEQSVLLLHACAHNPTGVDPRPEQWKEIATVVKKRNLFAFFDMAYQGFASGDGDKDAWAVRHFIEQGINVCLCQSYAKNMGLYGERVGAFTVICKDADEAKRVESQLKILIRPMYSNPPIHGARIASTILTSPDLRKQWLQEVKGMADRIIGMRTQLVSNLKKEGSTHSWQHITDQIGMFCFTGLKPEQVERLTKEFSIYMTKDGRISVAGVTSGNVGYLAHAIHQVTK"},
+		  {"name" : "length", "value" : "430"},
+		  {"name" : "SO:0000704", "value" : "GOT2", "type" : "property"},
+		  {"name" : "SO:0000905", "value" : "reviewed", "type" : "property"},
+		  {"name" : "SO:0000905", "value" : "complete", "type" : "property"},
+		  {"name" : "organism", "value" : "Oryctolagus cuniculus", "type" : "property"},
+		  {"name" : "annotationscore", "value" : "5", "type" : "property"},
+		  {"name" : "GO:0016212", "type" : "property"},
+		  {"name" : "GO:0080130", "type" : "property"},
+		  {"name" : "SO:0000409", "value" : "Substrate; via amide nitrogen", "type" : "feature", "start" : "65", "end" : "65"},
+		  {"name" : "SO:0000725", "value" : "Transit peptide", "type" : "feature", "start" : "1", "end" : "29"},
+		  {"name" : "SO:0000839", "value" : "Chain", "type" : "feature", "start" : "30", "end" : "430"},
+		  {"name" : "SO:0001400", "value" : "N6-acetyllysine", "type" : "feature", "start" : "59", "end" : "59"}
+		],
+		"links" : [
+		  { "rel" : "related", "href" : "http://www.uniprot.org/taxonomy/9986"},
+		  { "rel" : "related", "href" : "http://www.uniprot.org/proteomes/UP000001811"},
+		  { "rel" : "related", "href" : "http://www.ncbi.nlm.nih.gov/pubmed/4030726"},
+		]
+	  }
+	]
+  } 
+}
