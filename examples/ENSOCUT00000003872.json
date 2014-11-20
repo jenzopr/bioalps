@@ -1,0 +1,31 @@
+{
+  "collection" : {
+    "version" : "1.0",
+	"href" : "http://www.ensembl.org/Oryctolagus_cuniculus/Transcript/Summary?g=ENSOCUG00000003871;r=5:14535641-14557213;t=ENSOCUT00000003872"
+	"links" : [
+	  {"rel" : "profile", "href" : "http://alps.example.org/bioobject.xml"}
+	],
+	"items" : [
+	  {
+	    "href" : "http://www.ensembl.org/Oryctolagus_cuniculus/Transcript/Summary?g=ENSOCUG00000003871;r=5:14535641-14557213;t=ENSOCUT00000003872",
+		"data" : [
+		  {"name" : "sequence", "value" : "CCCGACCTCACCGTTTGGTGGGGCAGTGTGGGGTCACAGAGGCTAAAGTAAACCGGCGA..."},
+		  {"name" : "length", "value": "2056"},
+		  {"name" : "transcript name", "value" : "GOT2-201", "type" : "property"},
+		  {"name" : "description", "value" : "Aspartate aminotransferase, mitochondrial", "type" : "property"},
+		  {"name" : "location", "value" : "Chromosome 5: 14,535,641-14,557,213 reverse strand", "type" : "property"},
+		  {"name" : "exons", "value" : "10", "type" : "property"},
+		  {"name" : "SO:0000905", "value" : "known protein coding", "type" : "property"},
+		  {"name" : "SO:0000204", "value" : "five_prime_UTR", "type" : "feature", "start" : "1", "end" : "751"},
+		  {"name" : "SO:0000316", "value" : "CDS", "type" : "feature", "start" : "752", "end" : "2042"},
+		  
+		],
+		"links" : [
+		  {"rel" : "up", "href" : "http://www.ensembl.org/Oryctolagus_cuniculus/Gene/Summary?db=core;g=ENSOCUG00000003871;r=5:14535641-14557213;t=ENSOCUT00000003872"},
+		  {"rel" : "related", "href" : "http://www.uniprot.org/uniprot/P12345"},
+		  
+		]
+	  }
+	]
+  }
+}
