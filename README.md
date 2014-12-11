@@ -34,6 +34,11 @@ Furthermore, three helpful terms are defined:
 
 - Since hypermedia control is only available as search, edit-form and create-form relations, I'm asking myself if hypermedia control needs seperate profiles?
 - Currently, there is a mixture of related and up relations. I somehow need to model hierarchy between different representations - maybe there is a better way to do so.
+- Modelling of nested elements: Currently, nested elements are included in the Cj's data array as domain specific child properties. 
+
+## Additional information
+
+See the discussion in Google Groups for further information on the design process. (https://groups.google.com/forum/#!topic/alps-io/kpbLqYaHIqg)
 
 Contribution and contact
 ========================
