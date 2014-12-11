@@ -1,0 +1,90 @@
+{
+  "collection" : {
+    "version" : "1.0",
+	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/samples",
+	"links" : [
+	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"},
+	  {"rel" : "up", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623"}
+	],
+	"items" : [
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417402",
+		"data" : [
+		  {"name" : "value", "value" : "ERRa knock out", "type" : "genotype"},
+		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
+		  {"name" : "efo:EFO_0000513", "value" : "ERRa knock out", "type" : "property"},
+		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
+		  {"name" : "efo:EFO_0000635", "value" : "kidney", "type" : "property"},
+		  {"name" : "efo:EFO_0000695", "value" : "male", "type" : "property"},
+		  {"name" : "efo:EFO_0002698", "value" : "A-AFFY-45", "type" : "property"}
+		],
+		"links" : []
+	  },
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417403",
+		"data" : [
+		  {"name" : "value", "value" : "ERRa knock out", "type" : "genotype"},
+		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
+		  {"name" : "efo:EFO_0000513", "value" : "ERRa knock out", "type" : "property"},
+		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
+		  {"name" : "efo:EFO_0000635", "value" : "kidney", "type" : "property"},
+		  {"name" : "efo:EFO_0000695", "value" : "male", "type" : "property"},
+		  {"name" : "efo:EFO_0002698", "value" : "A-AFFY-45", "type" : "property"}
+		],
+		"links" : []
+	  },
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417404",
+		"data" : [
+		  {"name" : "value", "value" : "ERRa knock out", "type" : "genotype"},
+		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
+		  {"name" : "efo:EFO_0000513", "value" : "ERRa knock out", "type" : "property"},
+		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
+		  {"name" : "efo:EFO_0000635", "value" : "kidney", "type" : "property"},
+		  {"name" : "efo:EFO_0000695", "value" : "male", "type" : "property"},
+		  {"name" : "efo:EFO_0002698", "value" : "A-AFFY-45", "type" : "property"}
+		],
+		"links" : []
+	  },
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417399",
+		"data" : [
+		  {"name" : "value", "value" : "wild type", "type" : "genotype"},
+		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
+		  {"name" : "efo:EFO_0000513", "value" : "wild type", "type" : "property"},
+		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
+		  {"name" : "efo:EFO_0000635", "value" : "kidney", "type" : "property"},
+		  {"name" : "efo:EFO_0000695", "value" : "male", "type" : "property"},
+		  {"name" : "efo:EFO_0002698", "value" : "A-AFFY-45", "type" : "property"}
+		],
+		"links" : []
+	  },
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417400",
+		"data" : [
+		  {"name" : "value", "value" : "wild type", "type" : "genotype"},
+		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
+		  {"name" : "efo:EFO_0000513", "value" : "wild type", "type" : "property"},
+		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
+		  {"name" : "efo:EFO_0000635", "value" : "kidney", "type" : "property"},
+		  {"name" : "efo:EFO_0000695", "value" : "male", "type" : "property"},
+		  {"name" : "efo:EFO_0002698", "value" : "A-AFFY-45", "type" : "property"}
+		],
+		"links" : []
+	  },
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417401",
+		"data" : [
+		  {"name" : "value", "value" : "wild type", "type" : "genotype"},
+		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
+		  {"name" : "efo:EFO_0000513", "value" : "wild type", "type" : "property"},
+		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
+		  {"name" : "efo:EFO_0000635", "value" : "kidney", "type" : "property"},
+		  {"name" : "efo:EFO_0000695", "value" : "male", "type" : "property"},
+		  {"name" : "efo:EFO_0002698", "value" : "A-AFFY-45", "type" : "property"}
+		],
+		"links" : []
+	  },
+	]
+  }
+}

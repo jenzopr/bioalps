@@ -1,0 +1,35 @@
+{
+  "collection" : {
+    "version" : "1.0",
+	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623",
+	"links" : [
+	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"}
+	],
+	"items" : [
+	  {
+	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623",
+		"data" : [
+		  {"name" : "title", "value" : "Transcription profiling by array of kidneys from ERRa knock out mice."},
+		  {"name" : "biosystem", "value" : "Mus musculus"},
+		  {"name" : "factor", "value" : "genotype"},
+		  {"name" : "efo:EFO_0002030", "value" : "RMA using oligo version 1.24.2. arrayNormalization.R.", "type" : "property"},
+		  {"name" : "obo:OBI_0000650", "value" : "Moderated t-statistics computed with limma version 3.16.8. Independent filtering performed using genefilter version 1.46.1, with gene variances as filter statistic. p-values adjusted using Benjamini & Hochberg (1995) FDR correction. By default, significant differential expression called if adjusted p <= 0.05.", "type" : "property"},
+		  {"name" : "obo:OBI_0000118", "value" : "Fisher (non-directional), FDR < 0.05 using piano version 1.2.10.", "type" : "property"}
+		  
+		],
+		"links" : [
+		  {"rel" : "sample", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417402"},
+		  {"rel" : "sample", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417403"},
+		  {"rel" : "sample", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417404"},
+		  {"rel" : "sample", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417399"},
+		  {"rel" : "sample", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417400"},
+		  {"rel" : "sample", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417401"},
+		  {"rel" : "contrast", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/ERRa-ko-vs-wt"}
+		  {"rel" : "related", "name" : "reference", "href" : "http://europepmc.org/abstract/MED/19901197"},
+		  {"rel" : "related", "href" : "http://www.ebi.ac.uk/arrayexpress/arrays/A-AFFY-45"},
+		  
+		]
+	  }
+	]
+  }
+}
