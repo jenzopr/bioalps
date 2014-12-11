@@ -13,6 +13,9 @@
   
   <descriptor id="filter" type="semantic">
     <doc>An experimental factor that is used to filter the list of samples of an experiment.</doc>
+    <descriptor id="value" type="semantic">
+      <doc>The value on which the factor is filtered on.</doc>
+    </descriptor>
   </descriptor>
   
   <!-- state transitions -->

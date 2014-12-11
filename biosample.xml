@@ -3,13 +3,17 @@
   <doc>A list of samples and corresponding entity measurements that were taken as part of an experiment.</doc>
   
   <!-- base elements -->
-  <descriptor id="title">
+  <descriptor id="title" type="semantic">
     <doc>The samples title.</doc>
   </descriptor>
   
-  <!-- containers -->
-  <descriptor href="http://alps.example.com/bioexperiment.xml#factor" />
+  <descriptor href="http://alps.example.org/bioexperiment.xml#factor">
+    <descriptor id="value" type="semantic">
+      <doc>The value of the experimental factor.</doc>
+    </descriptor>
+  <descriptor>
   
+  <!-- containers -->
   <descriptor href="http://alps.example.org/bioproperty.xml#property" />
   
   <descriptor id="measurement" type="semantic">

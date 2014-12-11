@@ -20,17 +20,11 @@
 	<doc>Information about the biological system from which samples were taken (e.g. the organism).</doc>
   </descriptor>
   
-  <!-- containers -->
   <descriptor id="factor" type="semantic">
-	<doc>A key experimental variable or factor (e.g. time point in time series experiments or antibody in ChIP-Seq experiments) and the values it can take. If used within a biosample, only one value should be given per factor name.</doc>
-	<descriptor id="name" type="semantic">
-		<doc>The factors name (e.g. timepoint)</doc>
-	<descriptor>
-	<descriptor id="value" type="semantic">
-		<doc>A possible factor value (e.g. 0h)</doc>
-	<descriptor>
+	<doc>A key experimental variable or factor (e.g. time point in time series experiments or antibody in ChIP-Seq experiments). If used within a biosample, a value should be given per factor name.</doc>
   </descriptor>
   
+  <!-- containers -->
   <descriptor href="http://alps.example.org/bioproperty.xml#property" />
   
   <!-- state transitions --> 
