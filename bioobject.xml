@@ -26,4 +26,5 @@
   <descriptor href="http://alps.io/iana/relations.xml#search" />
   <descriptor href="http://alps.io/iana/relations.xml#edit-form" />
   <descriptor href="http://alps.io/iana/relations.xml#create-form" />
+  <descriptor href="http://alps.io/iana/relations#collection" />
 </alps>
