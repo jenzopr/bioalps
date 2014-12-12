@@ -3,7 +3,8 @@
     "version" : "1.0",
 	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623",
 	"links" : [
-	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"}
+	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"},
+	  {"rel" : "collection", "href" : "http://www.ebi.ac.uk/gxa/experiments/"}
 	],
 	"items" : [
 	  {
@@ -28,6 +29,18 @@
 		  {"rel" : "related", "name" : "reference", "href" : "http://europepmc.org/abstract/MED/19901197"},
 		  {"rel" : "related", "href" : "http://www.ebi.ac.uk/arrayexpress/arrays/A-AFFY-45"},
 		  
+		]
+	  }
+	],
+	"queries" : [
+	  {
+		"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/search",
+		"rel" : "search",
+		"data" : [
+		  {"name" : "title", value : ""},
+		  {"name" : "biosystem", "value" : ""},
+		  {"name" : "factor", value : ""},
+		  {"name" : "property", value : ""}
 		]
 	  }
 	]

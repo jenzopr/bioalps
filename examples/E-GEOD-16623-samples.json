@@ -4,7 +4,8 @@
 	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/samples",
 	"links" : [
 	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"},
-	  {"rel" : "up", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623"}
+	  {"rel" : "up", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623"},
+	  {"rel" : "collection", "href" : "http://www.ebi.ac.uk/gxa/samples"}
 	],
 	"items" : [
 	  {
