@@ -1,7 +1,7 @@
 {
   "collection" : {
     "version" : "1.0",
-	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/ERRa-ko-vs-wt",
+	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/contrasts",
 	"links" : [
 	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"},
 	  {"rel" : "up", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623"}
@@ -11,7 +11,7 @@
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/ERRa-ko-vs-wt",
 		"data" : [
 		  {"name" : "title", "value" : "ERRa knock out vs. wild type"},
-		  {"name" : "factor", "value" : "genotype"}
+		  {"name" : "factor", "value" : "efo:EFO_0000513"}
 		],
 		"links" : []
 	  }
