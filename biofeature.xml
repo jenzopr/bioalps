@@ -24,6 +24,16 @@
     <doc>An additional description.</doc>
   </descriptor>
   
+  <descriptor id="precondition" type="semantic">
+    <doc>A precondition on which the features presence might depend.</doc>
+    <descriptor id="type" type="semantic">
+      <doc>The type of the condition (e.g. cell line, cellular location, regulatory process, developmental process)</doc>
+    </descriptor>
+    <descriptor id="value" type="semantic">
+      <doc>The value of the condition (e.g. HEC cells)</doc>
+    </descriptor>
+  </descriptor>
+  
   <!-- state transitions -->
   <descriptor href="http://alps.io/iana/relations#describedby" />
 <alps>
