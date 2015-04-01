@@ -15,11 +15,15 @@ Here we provide several examples and use cases for bioALPS in conjunction with d
 
 Example | Description | Shows | Uses | Link
 ------- | ----------- | ----- | ---- | ----
-experiment page | An experiment representation for E-GEOD-16623 | Collection,Search query | bioexperiment,biosample,bioproperty | [View](cj/E-GEOD-16623.json)
-sample collection | A hypothetical collection of samples for E-GEOD-16623 | Collection | bioexperiment,biosample,bioproperty | [View](cj/E-GEOD-16623-samples.json)
+experiment page | An experiment representation for E-GEOD-16623 | Collection, Search query | bioexperiment, biosample, bioproperty | [View](cj/E-GEOD-16623.json)
+sample collection | A hypothetical collection of samples for E-GEOD-16623 | Collection | bioexperiment, biosample, bioproperty | [View](cj/E-GEOD-16623-samples.json)
 contrast collection | A hypothetical collection of available contrasts for E-GEOD-16623 | Collection | biocontrast | [View](cj/E-GEOD-16623-contrast.json)
 
 #### Uber
+
+Example | Description | Shows | Uses | Link
+------- | ----------- | ----- | ---- | ----
+experiment page | An experiment representation for E-GEOD-16623 | Collection, Search, Create, Update | bioexperiment | [View](uber/E-GEOD-16623.json)
 
 #### Siren
 
