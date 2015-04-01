@@ -15,9 +15,10 @@ Here we provide several examples and use cases for bioALPS in conjunction with d
 
 Example | Description | Shows | Uses | Link
 ------- | ----------- | ----- | ---- | ----
-experiment page | An experiment representation for E-GEOD-16623 | Collection, Search query | bioexperiment, biosample, bioproperty | [View](cj/E-GEOD-16623.json)
-sample collection | A hypothetical collection of samples for E-GEOD-16623 | Collection | bioexperiment, biosample, bioproperty | [View](cj/E-GEOD-16623-samples.json)
+experiment page | An experiment representation for E-GEOD-16623 | Collection, Search query | bioexperiment | [View](cj/E-GEOD-16623.json)
+sample collection | A hypothetical collection of samples for E-GEOD-16623 | Collection | biosample | [View](cj/E-GEOD-16623-samples.json)
 contrast collection | A hypothetical collection of available contrasts for E-GEOD-16623 | Collection | biocontrast | [View](cj/E-GEOD-16623-contrast.json)
+transcript page | Representation of transcript GOT2-201 | Collection | bioobject | [View](cj/ENSOCUT00000003872.json)
 
 #### Uber
 

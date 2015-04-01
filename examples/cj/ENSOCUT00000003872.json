@@ -16,9 +16,9 @@
 		  {"name" : "location", "value" : "Chromosome 5: 14,535,641-14,557,213 reverse strand", "type" : "property"},
 		  {"name" : "exons", "value" : "10", "type" : "property"},
 		  {"name" : "SO:0000905", "value" : "known protein coding", "type" : "property"},
-		  {"name" : "SO:0000204", "value" : "five_prime_UTR", "type" : "feature", "start" : "1", "end" : "751"},
+		  {"name" : "SO:0000204", "value" : "five_prime_UTR", "type" : "feature", "start" : "1", "end" : "752"},
 		  {"name" : "SO:0000316", "value" : "CDS", "type" : "feature", "start" : "752", "end" : "2042"},
-		  
+		  {"name" : "SO:0000205", "value" : "three_prime_UTR", "type" : "feature", "start" : "2042", "end" : "2057"}
 		],
 		"links" : [
 		  {"rel" : "up", "href" : "http://www.ensembl.org/Oryctolagus_cuniculus/Gene/Summary?db=core;g=ENSOCUG00000003871;r=5:14535641-14557213;t=ENSOCUT00000003872"},
