@@ -3,7 +3,7 @@
     "version" : "1.0",
 	"href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/samples",
 	"links" : [
-	  {"rel" : "profile", "href" : "http://alps.example.org/bioexperiment.xml"},
+	  {"rel" : "profile", "href" : "http://alps.example.org/biosamples.xml"},
 	  {"rel" : "up", "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623"},
 	  {"rel" : "collection", "href" : "http://www.ebi.ac.uk/gxa/samples"}
 	],
@@ -11,6 +11,7 @@
 	  {
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417402",
 		"data" : [
+		  {"name" : "title", "value" : "GSM417402"},
 		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
 		  {"name" : "efo:EFO_0000513", "value" : "ERRa knock out", "type" : "property"},
 		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
@@ -23,6 +24,7 @@
 	  {
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417403",
 		"data" : [
+		  {"name" : "title", "value" : "GSM417403"},
 		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
 		  {"name" : "efo:EFO_0000513", "value" : "ERRa knock out", "type" : "property"},
 		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
@@ -35,6 +37,7 @@
 	  {
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417404",
 		"data" : [
+		  {"name" : "title", "value" : "GSM417404"},
 		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
 		  {"name" : "efo:EFO_0000513", "value" : "ERRa knock out", "type" : "property"},
 		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
@@ -47,6 +50,7 @@
 	  {
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417399",
 		"data" : [
+		  {"name" : "title", "value" : "GSM417399"},
 		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
 		  {"name" : "efo:EFO_0000513", "value" : "wild type", "type" : "property"},
 		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
@@ -59,6 +63,7 @@
 	  {
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417400",
 		"data" : [
+		  {"name" : "title", "value" : "GSM417400"},
 		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
 		  {"name" : "efo:EFO_0000513", "value" : "wild type", "type" : "property"},
 		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
@@ -71,6 +76,7 @@
 	  {
 	    "href" : "http://www.ebi.ac.uk/gxa/experiments/E-GEOD-16623/GSM417401",
 		"data" : [
+		  {"name" : "title", "value" : "GSM417401"},
 		  {"name" : "efo:EFO_0000246", "value" : "2 to 3 months", "type" : "property"},
 		  {"name" : "efo:EFO_0000513", "value" : "wild type", "type" : "property"},
 		  {"name" : "obo:OBI_0100026", "value" : "Mus musculus", "type" : "property"},
