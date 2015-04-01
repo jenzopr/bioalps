@@ -1,5 +1,6 @@
 {
   "properties": { 
+	  "class" : ["collection", "biofeature"],
       "start": 48541080,
       "end": 48545479,
       "strand": "0",
@@ -27,7 +28,9 @@
         { "name": "start", "type": "number", "value": "48541080" },
         { "name": "end", "type": "number", "value": "48545479" },
         { "name": "strand", "type": "text" },
-        { "name": "description", "type" : "text"}
+        { "name": "description", "type": "text"},
+		{ "name": "type", "type": "text", "value": "regulatory"},
+		{ "name": "precondition", "type": "text"}
       ]
     }
   ],

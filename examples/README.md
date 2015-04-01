@@ -30,5 +30,6 @@ experiment page | An experiment representation for E-GEOD-16623 | Collection, Se
 Example | Description | Shows | Uses | Link
 ------- | ----------- | ----- | ---- | ----
 regulatory feature | Example of a predicted promoter on chr17 | Collection, Update | biofeature | [View](siren/ENSR00001348195.json)
+ChIP-seq measurement | A human K562 ChIP-seq sample | Collection, Create, includes measurements | biosample | [View](siren/GSM1003608.json)
 
 ### Discussion

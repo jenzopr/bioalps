@@ -1,0 +1,76 @@
+{
+  "properties": {
+	  "class": ["biosample", "collection", "item"],
+      "title": "Stanford_ChipSeq_K562_GATA1_(SC-266)_IgG-mus",
+  },
+  "entities": [
+    {
+	  "class": ["bioproperty"],
+	  "properties": { "term": "EFO:0000634", "value": "Homo sapiens"},
+	},
+	{
+	  "class": ["bioproperty"],
+	  "properties": { "term": "EFO:0000322", "value": "K562"},
+	},
+	{
+	  "class": ["bioproperty"],
+	  "properties": { "term": "EFO:0004426", "value": "leukemia"},
+	},
+	{
+	  "class": ["bioproperty"],
+	  "properties": { "term": "EFO:0000264", "value": "GATA1"},
+	},
+	{
+	  "class": ["bioproperty"],
+	  "properties": { "term": "EFO:0002692", "value": "ChIP-seq"},
+	},
+	{
+	  "class": ["measurement"],
+	  "properties": { "start": "75357764", "end": "75360246", "entity": "chr15", "value": "188.41"},
+	},
+	{
+	  "class": ["measurement"],
+	  "properties": { "start": "73998652", "end": "73999336", "entity": "chr7", "value": "160.56"},
+	},
+	{
+	  "class": ["measurement"],
+	  "properties": { "start": "55469066", "end": "55469788", "entity": "chr16", "value": "158.53"},
+	},
+	{
+	  "class": ["measurement"],
+	  "properties": { "start": "39890055", "end": "39891352", "entity": "chr20", "value": "154.81"},
+	},
+	{
+	  "class": ["measurement"],
+	  "properties": { "start": "4799763", "end": "4800413", "entity": "chr9", "value": "150.89"},
+	},
+	{
+	  "class": ["measurement"],
+	  "properties": { "start": "1041945", "end": "1042652", "entity": "chr20", "value": "91.84"},
+	},
+  ],
+  "actions": [
+    {
+      "name": "create",
+      "title": "Create a measurement",
+      "method": "POST",
+      "href": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1003608",
+      "type": "application/vnd.siren+json",
+      "fields": [
+	    { "name": "entity", "type": "text"},
+		{ "name": "value", "type": "number"},
+        { "name": "start", "type": "number"},
+        { "name": "end", "type": "number"},
+        { "name": "strand", "type": "text"},
+        { "name": "description", "type": "text"},
+		{ "name": "type", "type": "text", "value": ""},
+		{ "name": "precondition", "type": "text"}
+      ]
+    }
+  ],
+  "links": [
+    { "rel": [ "self" ], "href": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1003608" },
+    { "rel": [ "up" ], "href": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE31477" },
+    { "rel": [ "profile" ], "href": "http://alps.example.org/biosample.xml" }
+  ]
+}
