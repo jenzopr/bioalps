@@ -1,0 +1,40 @@
+{
+  "properties": { 
+      "start": 48541080,
+      "end": 48545479,
+      "strand": "0",
+      "description": "Predicted promoter",
+      "type" : "regulatory",
+  },
+  "entities": [
+    { 
+      "rel": [ "collection" ], 
+      "href": "http://rest.ensembl.org/regulatory/human/"
+    },
+    {
+      "rel": [ "up" ], 
+      "href" : "http://rest.ensembl.org/chromosomes/human/17"
+    }
+  ],
+  "actions": [
+    {
+      "name": "edit",
+      "title": "Edit item",
+      "method": "POST",
+      "href": "http://rest.ensembl.org/regulatory/human/ENSR00001348195",
+      "type": "application/vnd.siren+json",
+      "fields": [
+        { "name": "start", "type": "number", "value": "48541080" },
+        { "name": "end", "type": "number", "value": "48545479" },
+        { "name": "strand", "type": "text" },
+        { "name": "description", "type" : "text"}
+      ]
+    }
+  ],
+  "links": [
+    { "rel": [ "self" ], "href": "http://rest.ensembl.org/regulatory/human/ENSR00001348195" },
+    { "rel": [ "previous" ], "href": "http://rest.ensembl.org/regulatory/human/ENSR00001348194" },
+    { "rel": [ "next" ], "href": "http://rest.ensembl.org/regulatory/human/ENSR00001348196" },
+    { "rel": [ "profile" ], "href": "http://alps.example.org/biofeature.xml" }
+  ]
+}

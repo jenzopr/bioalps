@@ -27,6 +27,8 @@ Example | Description | Shows | Uses | Link
 experiment page | An experiment representation for E-GEOD-16623 | Collection, Search, Create, Update | bioexperiment | [View](uber/E-GEOD-16623.json)
 
 #### Siren
-
+Example | Description | Shows | Uses | Link
+------- | ----------- | ----- | ---- | ----
+regulatory feature | Example of a predicted promoter on chr17 | Collection, Update | biofeature | [View](siren/ENSR00001348195.json)
 
 ### Discussion
