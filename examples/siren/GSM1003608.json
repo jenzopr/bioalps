@@ -1,52 +1,58 @@
 {
   "properties": {
-	  "class": ["biosample", "collection", "item"],
+	  "class": ["sample", "collection", "item"],
       "title": "Stanford_ChipSeq_K562_GATA1_(SC-266)_IgG-mus",
   },
   "entities": [
     {
-	  "class": ["bioproperty"],
+	  "class": ["property"],
 	  "properties": { "term": "EFO:0000634", "value": "Homo sapiens"},
 	},
 	{
-	  "class": ["bioproperty"],
+	  "class": ["property"],
 	  "properties": { "term": "EFO:0000322", "value": "K562"},
 	},
 	{
-	  "class": ["bioproperty"],
+	  "class": ["property"],
 	  "properties": { "term": "EFO:0004426", "value": "leukemia"},
 	},
 	{
-	  "class": ["bioproperty"],
+	  "class": ["property"],
 	  "properties": { "term": "EFO:0000264", "value": "GATA1"},
 	},
 	{
-	  "class": ["bioproperty"],
+	  "class": ["property"],
 	  "properties": { "term": "EFO:0002692", "value": "ChIP-seq"},
 	},
 	{
-	  "class": ["measurement"],
-	  "properties": { "start": "75357764", "end": "75360246", "entity": "chr15", "value": "188.41"},
+	  "class": ["measurement", "feature"],
+	  "properties": { "start": "75357764", "end": "75360246", "value": "188.41"},
+	  "links": [{"rel": "bioentity", "href":"http://rest.ensembl.org/chromosomes/human/15"}]
 	},
 	{
-	  "class": ["measurement"],
-	  "properties": { "start": "73998652", "end": "73999336", "entity": "chr7", "value": "160.56"},
+	  "class": ["measurement", "feature"],
+	  "properties": { "start": "73998652", "end": "73999336", "value": "160.56"},
+	  "links": [{"rel": "bioentity", "href":"http://rest.ensembl.org/chromosomes/human/7"}]
 	},
 	{
-	  "class": ["measurement"],
-	  "properties": { "start": "55469066", "end": "55469788", "entity": "chr16", "value": "158.53"},
+	  "class": ["measurement", "feature"],
+	  "properties": { "start": "55469066", "end": "55469788", "value": "158.53"},
+	  "links": [{"rel": "bioentity", "href":"http://rest.ensembl.org/chromosomes/human/16"}]
 	},
 	{
-	  "class": ["measurement"],
-	  "properties": { "start": "39890055", "end": "39891352", "entity": "chr20", "value": "154.81"},
+	  "class": ["measurement" "feature"],
+	  "properties": { "start": "39890055", "end": "39891352", "value": "154.81"},
+	  "links": [{"rel": "bioentity", "href":"http://rest.ensembl.org/chromosomes/human/20"}]
 	},
 	{
-	  "class": ["measurement"],
-	  "properties": { "start": "4799763", "end": "4800413", "entity": "chr9", "value": "150.89"},
+	  "class": ["measurement" "feature"],
+	  "properties": { "start": "4799763", "end": "4800413", "value": "150.89"},
+	  "links": [{"rel": "bioentity", "href":"http://rest.ensembl.org/chromosomes/human/9"}]
 	},
 	{
-	  "class": ["measurement"],
-	  "properties": { "start": "1041945", "end": "1042652", "entity": "chr20", "value": "91.84"},
+	  "class": ["measurement" "feature"],
+	  "properties": { "start": "1041945", "end": "1042652", "value": "91.84"},
+	  "links": [{"rel": "bioentity", "href":"http://rest.ensembl.org/chromosomes/human/20"}]
 	},
   ],
   "actions": [
@@ -57,14 +63,14 @@
       "href": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1003608",
       "type": "application/vnd.siren+json",
       "fields": [
-	    { "name": "entity", "type": "text"},
-		{ "name": "value", "type": "number"},
+        { "name": "entity", "type": "text"},
+        { "name": "value", "type": "number"},
         { "name": "start", "type": "number"},
         { "name": "end", "type": "number"},
         { "name": "strand", "type": "text"},
         { "name": "description", "type": "text"},
-		{ "name": "type", "type": "text", "value": ""},
-		{ "name": "precondition", "type": "text"}
+        { "name": "type", "type": "text", "value": ""},
+        { "name": "precondition", "type": "text"}
       ]
     }
   ],
