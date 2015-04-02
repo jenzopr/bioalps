@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<alps>
+  <doc>A list of biological entities.</doc>
+  
+  <!-- base elements -->
+  <descriptor id="bioentity" type="semantic">
+    <doc>Refers to a biological entity of the context.</doc>
+  </descriptor>
+  
+  <descriptor id="sequence" type="semantic">
+    <doc>The entities sequence.</doc>
+  <descriptor>
+  
+  <descriptor id="length" type="semantic">
+    <doc>The length of the entities sequence.</doc>
+  </descriptor>
+  
+  <!-- containers -->
+  <descriptor href="http://alps.example.org/bioproperty.xml#property" />
+  <descriptor href="http://alps.example.org/biofeature.xml#feature" />
+  
+  <!-- state transitions -->
+  <descriptor id="experiment" type="safe">
+    <doc>Refers to a resource that provides measurements of the entity under certain conditions.</doc>
+  </descriptor>
+  <descriptor id="featureCollection" name="feature" type="safe" rt="http://alps.example.org/biofeature.xml#feature">
+    <doc>Refers to a resource that provides features inherent to the entity.</doc>
+  </descriptor>
+  <descriptor id="propertyCollection" name="property" type="safe" rt="http://alps.example.org/bioproperty.xml#property">
+    <doc>Refers to a resource that provides properties inherent to the entity.</doc>
+  </descriptor>
+  
+  <descriptor href="http://alps.io/iana/relations#up" />
+  <descriptor href="http://alps.io/iana/relations#collection" />
+  <descriptor href="http://alps.io/iana/relations#next" />
+  <descriptor href="http://alps.io/iana/relations#prev" />
+  <descriptor href="http://alps.io/iana/relations#first" />
+  <descriptor href="http://alps.io/iana/relations#last" />
+  <descriptor href="http://alps.io/iana/relations#describedby" />
+  <descriptor href="http://als.io/iana/relations.xml#related" />
+  <descriptor href="http://alps.io/iana/relations.xml#create" />
+  <descriptor href="http://alps.io/iana/relations.xml#edit" />
+  <descriptor href="http://alps.io/iana/relations.xml#search" />
+  <descriptor href="http://alps.io/iana/relations.xml#canonical" />
+</alps>

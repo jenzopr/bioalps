@@ -3,15 +3,13 @@
   <doc>A list of samples and corresponding entity measurements that were taken as part of an experiment.</doc>
   
   <!-- base elements -->
+  <descriptor id="sample" type="semantic">
+    <doc>Refers to a sample of the context.</doc>
+  </descriptor>
+  
   <descriptor id="title" type="semantic">
     <doc>The samples title.</doc>
   </descriptor>
-  
-  <descriptor href="http://alps.example.org/bioexperiment.xml#factor">
-    <descriptor id="value" type="semantic">
-      <doc>The value of the experimental factor.</doc>
-    </descriptor>
-  <descriptor>
   
   <!-- containers -->
   <descriptor href="http://alps.example.org/bioproperty.xml#property" />
@@ -19,25 +17,25 @@
   <descriptor id="measurement" type="semantic">
     <doc>A measurement for a biological entity in a particular condition.</doc>
     <link rel="help" href="http://www.mged.org/minseqe/" />
-    <descriptor id="type" type="semantic">
-      <doc>The type of the measurement (e.g. expression, interaction, feature).</doc>
-    </descriptor>
-    <descriptor id="entity" type="semantic">
-      <doc>Refers to the biological entity in the current context.</doc>
-    </descriptor>
-    <descriptor id="value" type="semantic">
-      <doc>A measured value.</doc>
-    </descriptor>
-    <descriptor id="interaction" type="semantic">
-      <doc>A measured interaction</doc>
-    </descriptor>
-    <descriptor href="https://alps.example.org/biofeature.xml" />
   </descriptor>
+  <descriptor id="value" type="semantic">
+    <doc>A measured value.</doc>
+  </descriptor>
+  <descriptor id="interaction" type="semantic">
+    <doc>A measured interaction</doc>
+  </descriptor>
+  <descriptor href="https://alps.example.org/biofeature.xml" />
   
   <!-- state transitions -->
   <descriptor href="http://alps.io/iana/relations#up" />
+  <descriptor href="http://alps.io/iana/relations#next" />
+  <descriptor href="http://alps.io/iana/relations#prev" />
+  <descriptor href="http://alps.io/iana/relations#first" />
+  <descriptor href="http://alps.io/iana/relations#last" />
   <descriptor href="https://alps.io/iana/relations#search" />
-  <descriptor href="http://alps.io/iana/relations#edit-form" />
-  <descriptor href="http://alps.io/iana/relations#create-form" />
+  <descriptor href="http://alps.io/iana/relations#edit" />
+  <descriptor href="http://alps.io/iana/relations#create" />
   <descriptor href="http://alps.io/iana/relations#collection" />
+  <descriptor href="http://alps.io/iana/relations#describedby" />
+  <descriptor href="http://als.io/iana/relations.xml#related" />
 </alps>

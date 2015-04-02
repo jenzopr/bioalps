@@ -3,6 +3,10 @@
   <doc>A list of assemblies.</doc>
   
   <!-- base elements -->
+  <descriptor id="assembly" type="semantic">
+    <doc>Refers to an assembly of the context.</doc>
+  </descriptor>
+  
   <descriptor id="title" type="semantic">
     <doc>The title of the assembly.</doc>
   </descriptor>
@@ -15,7 +19,14 @@
   
   <!-- state transitions -->
   <descriptor href="http://alps.io/iana/relations#related" />
+  <descriptor href="http://alps.io/iana/relations#collection" />
+  <descriptor href="https://alps.io/iana/relations#canonical" />
+  <descriptor href="https://alps.io/iana/relations#describedby" />
+  <descriptor href="http://alps.io/iana/relations#next" />
+  <descriptor href="http://alps.io/iana/relations#prev" />
+  <descriptor href="http://alps.io/iana/relations#first" />
+  <descriptor href="http://alps.io/iana/relations#last" />
   <descriptor href="https://alps.io/iana/relations#search" />
-  <descriptor href="http://alps.io/iana/relations#edit-form" />
-  <descriptor href="http://alps.io/iana/relations#create-form" />
+  <descriptor href="http://alps.io/iana/relations#edit" />
+  <descriptor href="http://alps.io/iana/relations#create" />
 </alps>

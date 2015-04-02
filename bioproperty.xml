@@ -13,10 +13,20 @@
     <doc>A value assigned to an ontology or property term. For example a software name and version assigned to sio:010066 (sequence alignment) or a genotype assigned to efo:0000513 (genotype).</doc>
   </descriptor>
   
-  <!-- containers -->
   <descriptor id="property" type="semantic">
-    <doc>A property.</doc>
-	<descriptor href="#term" />
-	<descriptor href="#value" />
+    <doc>Refers to a property of the context.</doc>
   </descriptor>
+  
+  <!-- state transitions -->
+  <descriptor href="http://alps.io/iana/relations#up" />
+  <descriptor href="http://alps.io/iana/relations#collection" />
+  <descriptor href="http://alps.io/iana/relations#next" />
+  <descriptor href="http://alps.io/iana/relations#prev" />
+  <descriptor href="http://alps.io/iana/relations#first" />
+  <descriptor href="http://alps.io/iana/relations#last" />
+  <descriptor href="http://alps.io/iana/relations#describedby" />
+  <descriptor href="http://als.io/iana/relations.xml#related" />
+  <descriptor href="http://alps.io/iana/relations.xml#create" />
+  <descriptor href="http://alps.io/iana/relations.xml#edit" />
+  <descriptor href="http://alps.io/iana/relations.xml#search" />
 <alps>

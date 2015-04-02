@@ -21,25 +21,32 @@
   </descriptor>
   
   <descriptor id="factor" type="semantic">
-	<doc>A key experimental variable or factor (e.g. time point in time series experiments or antibody in ChIP-Seq experiments). If used within a biosample, a value should be given per factor name.</doc>
+	<doc>A key experimental variable or factor (e.g. time point in time series experiments or antibody in ChIP-Seq experiments).</doc>
   </descriptor>
   
   <!-- containers -->
   <descriptor href="http://alps.example.org/bioproperty.xml#property" />
+  <descriptor href="http://alps.example.org/biocontrast.xml#contrast" />
   
   <!-- state transitions --> 
-  <descriptor id="sample" type="safe">
+  <descriptor id="sample" type="safe" rt="http://alps.example.org/biosample.xml#sample">
     <doc>Refers to a resource that was taken as sample within the experiment.</doc>
   </descriptor>
   
-  <descriptor id="contrast" type="safe">
+  <descriptor id="propertyCollection" name="property" type="safe" rt="http://alps.example.org/bioproperty.xml#property">
+    <doc>Refers to a resource that provides properties inherent to the entity.</doc>
+  </descriptor>
+  
+  <descriptor id="contrastCollection" name="contrast" type="safe" rt="http://alps.example.org/biocontrast.xml#contrast">
     <doc>Refers to a resource that can be used to contrast two experimental variables or factors.</doc>
   </descriptor>
   
   <descriptor href="https://alps.io/iana/relations#canonical" />
+  <descriptor href="http://alps.io/iana/relations#related" />
+  <descriptor href="http://alps.io/iana/relations#describedby" />
   <descriptor href="http://alps.io/iana/relations#author" />
   <descriptor href="https://alps.io/iana/relations#search" />
-  <descriptor href="http://alps.io/iana/relations#edit-form" />
-  <descriptor href="http://alps.io/iana/relations#create-form" />
+  <descriptor href="http://alps.io/iana/relations#edit" />
+  <descriptor href="http://alps.io/iana/relations#create" />
   <descriptor href="http://alps.io/iana/relations#collection" />
 </alps>
